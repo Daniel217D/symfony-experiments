@@ -1,0 +1,16 @@
+{
+    "name": "ddaniel/symfony-experiments",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ddaniel\\SymfonyExperiments\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daniel21703",
+            "email": "daniel217032001@gmail.com"
+        }
+    ],
+    "require": {}
+}
