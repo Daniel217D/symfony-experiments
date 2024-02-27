@@ -5,6 +5,10 @@ use Symfony\Component\Console\Application;
 
 require 'vendor/autoload.php';
 
-$application = new Application();
-$application->add(new TestConsole());
-$application->run();
+if( php_sapi_name() === 'cli' ) {
+	$application = new Application();
+	$application->add(new TestConsole());
+	$application->run();
+	die();
+}
+
