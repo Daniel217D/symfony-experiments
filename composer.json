@@ -14,5 +14,8 @@
     ],
     "require": {
         "symfony/console": "^6.4"
+    },
+    "scripts": {
+      "dev": ["Composer\\Config::disableProcessTimeout","php -S localhost:8000"]
     }
 }
